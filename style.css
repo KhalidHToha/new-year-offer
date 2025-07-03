@@ -1,0 +1,121 @@
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.text-center {
+  text-align: center;
+}
+
+/* hero section */
+section {
+  margin-bottom: 120px;
+}
+#hero {
+  background: linear-gradient(
+      180deg,
+      rgba(7, 2, 17, 1) 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(images/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+.hero {
+  width: 630px;
+  height: 246px;
+  margin: auto;
+  padding: 177px;
+}
+.hero h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 10px;
+}
+.hero h1 {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+}
+/* Offer section */
+.offer {
+  margin-top: 120px;
+}
+.offer h1 {
+  font-size: 90px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 26px;
+}
+.offer h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+  margin: 0;
+}
+.offer h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 10px;
+}
+.offer img {
+  margin-top: 48px;
+}
+/* party section */
+.party {
+  background: linear-gradient(
+      90deg,
+      rgba(7, 2, 17, 1) 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+}
+.party-column-1 h1 {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  line-height: 88px;
+  letter-spacing: 11px;
+  color: white;
+}
+.party-column-1 p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+.party-column-1 {
+  width: 60%;
+  padding: 100px 0 100px 100px;
+}
+.party-column-2 {
+  padding: 125px;
+}
+.party-column-1 a {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(235, 229, 229);
+  text-decoration: none;
+  margin: 30px;
+}
