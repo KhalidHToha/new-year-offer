@@ -211,3 +211,29 @@ section {
   font-weight: 400;
   line-height: 30px;
 }
+/* Holyday section */
+.holyday {
+  padding: 120px;
+}
+.holyday-content {
+  width: 690px;
+  height: 360px;
+  margin: 0 auto;
+}
+.holyday-content h4 {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #070211;
+  margin-bottom: 10px;
+}
+.holyday-content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+}
+.holyday-content h1 span {
+  color: #ff0000;
+}
+
+/*  */
