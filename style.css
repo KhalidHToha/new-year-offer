@@ -236,4 +236,177 @@ section {
   color: #ff0000;
 }
 
-/*  */
+/*  holyday section */
+
+.group {
+  width: 1320px;
+  height: 665px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  position: relative;
+}
+.red-box {
+  position: relative;
+  bottom: -225px;
+}
+.gift-box {
+  width: 673px;
+  height: 577px;
+  position: absolute;
+  bottom: 55px;
+  z-index: 1;
+}
+.discound-box {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  top: 80px;
+  left: 844px;
+}
+
+/* portfolio section */
+
+#portfolio {
+  width: 1320px;
+  margin: auto;
+  margin-bottom: 120px;
+}
+#portfolio h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #ff0000;
+  margin: 0;
+  margin-bottom: 16px;
+}
+#portfolio h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+#portfolio p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 30px;
+  width: 890px;
+  color: #070211;
+  opacity: 60%;
+}
+.img-box {
+  display: flex;
+  gap: 20px;
+}
+.img-box img {
+  width: 425px;
+  height: 450px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+/* subscribe section */
+
+.sub {
+  width: 1320px;
+  margin: auto;
+  padding: 80px;
+  background-color: #fce9e9;
+  margin-bottom: 120px;
+}
+.sub h1 {
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #070211;
+  margin: 0;
+}
+.sub p {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #070211;
+  opacity: 60%;
+  width: 890px;
+  margin: 0 auto;
+}
+.input {
+  width: 648px;
+  height: 72px;
+  margin: auto;
+  padding: 48px;
+  display: flex;
+}
+.input #email {
+  border: none;
+  width: 75%;
+  height: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.input .button {
+  border: none;
+  width: 25%;
+  height: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff0000;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-family: "Inter", sans-serif;
+}
+.input ::placeholder {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* footer section */
+footer {
+  background-color: #070211;
+  height: 386px;
+  padding-top: 120px;
+}
+.first-line {
+  width: 1185px;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-line .address h3 {
+  width: 575px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 40px;
+  color: #ffffff;
+}
+.social-box a {
+  margin-right: 24px;
+}
+.contact h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  color: #ffffff;
+}
+.credit {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  background-color: gray;
+  padding: 10px 0;
+}
+hr {
+  color: #ffffff;
+  padding: 44px;
+  border: none;
+}
