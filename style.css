@@ -160,6 +160,7 @@ section {
   border: none;
   border-radius: 8px;
   margin-top: 48px;
+  cursor: pointer;
 }
 
 /* comming soon section */
@@ -356,6 +357,7 @@ section {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 .input ::placeholder {
   font-family: "Merriweather", serif;
